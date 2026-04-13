@@ -89,9 +89,9 @@ plot_distribution_semaine <- function(trajet) {
 #' Filtrer les trajets par boucle
 #'
 #' @param trajet Un data.frame de données (ex: df_velo).
-#' @param boucle Un vecteur de numéros de boucles (ex: c("880", "881"))[cite: 41, 42].
+#' @param boucle Un vecteur de numéros de boucles.
 #'
-#' @return Le data.frame filtré[cite: 41].
+#' @return Le data.frame filtré.
 #' @export
 filtrer_trajet <- function(trajet, boucle) {
   if (is.null(boucle)) {

@@ -9,10 +9,10 @@ filtrer_trajet(trajet, boucle)
 \arguments{
 \item{trajet}{Un data.frame de données (ex: df_velo).}
 
-\item{boucle}{Un vecteur de numéros de boucles (ex: c("880", "881"))\link{cite: 41, 42}.}
+\item{boucle}{Un vecteur de numéros de boucles.}
 }
 \value{
-Le data.frame filtré\link{cite: 41}.
+Le data.frame filtré.
 }
 \description{
 Filtrer les trajets par boucle
