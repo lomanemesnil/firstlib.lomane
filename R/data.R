@@ -5,3 +5,4 @@
 #' @format Un data.frame avec les colonnes de comptage habituelles.
 #' @source \url{https://data.nantesmetropole.fr/}
 "df_velo"
+
